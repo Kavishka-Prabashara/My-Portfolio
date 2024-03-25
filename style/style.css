@@ -9,6 +9,8 @@ body {
     min-height: 100vh;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    background-color: #18181C;
 }
 
 header {
@@ -55,7 +57,7 @@ nav a::before {
     height: 2px;
 
 }
-section {
+#sectionPage {
     top: 0;
     height: 100vh;
     width: 100vw;
@@ -66,6 +68,17 @@ section {
     position: relative;
 }
 
+#borderShaper{
+    position: relative;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    height: 80vh;
+    width: 30vw;
+    border-radius: 100% 0% 67% 33% / 34% 29% 71% 66% ;
+    background-color:red ;
+
+}
 section > img {
     position: absolute;
     top: 50%;
@@ -74,5 +87,4 @@ section > img {
     height: 80%;
     width: 30%;
 }
-
 
