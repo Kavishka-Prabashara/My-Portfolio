@@ -7,3 +7,11 @@ header div {
     height: 10vh;
     width: 100%;
 }
+header>img{
+    top: 0;
+    left: 0;
+    width: 10px;
+}
+header>nav{
+
+}
