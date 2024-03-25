@@ -1,26 +1,14 @@
-body{
-    /*background-color: black;*/
-}
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px 100px;
-}
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Samsung Sans", "Segoe UI", serif;
+    font-family: "Segoe UI", serif;
 }
-header div {
-    top: 0;
-    background: linear-gradient(to bottom, rgba(78, 239, 201, 0.2), rgba(78, 239, 201, 0));
-    height: 10vh;
-    width: 100%;
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
-header>img{
-    top: 0;
-    left: 0;
-    width: 10px;
-}
+
+
