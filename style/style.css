@@ -1,6 +1,12 @@
 body{
     /*background-color: black;*/
 }
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +23,4 @@ header>img{
     top: 0;
     left: 0;
     width: 10px;
-}
-header>nav{
-
 }
