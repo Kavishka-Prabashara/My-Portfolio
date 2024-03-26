@@ -64,27 +64,83 @@ nav a::before {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,141,65,1) 59%, rgba(105,249,171,1) 100%);
 }
-section {
-    position: relative;
-}
 
-#borderShaper{
-    position: relative;
-    top: 50%;
-    right: 0;
-    transform: translate(0, -50%);
+#leftSide {
+    left: 0;
+    top: 10%;
     height: 80vh;
-    width: 30vw;
-    border-radius: 100% 0% 67% 33% / 34% 29% 71% 66% ;
-    background-color:red ;
-
+    width: 50%;
+    background-color:royalblue ;
+    position: absolute;
 }
-section > img {
+#rightSide {
+    right: 0;
+    top: 10%;
+    height: 80vh;
+    width: 50%;
+    background-color: #34ea8a;
+    position: absolute;
+}
+/*section aside #borderShaper{
     position: absolute;
     top: 50%;
-    right: 0;
+    bottom: 10%;
+    right: 1.5%;
+    transform: translate(0, -50%);
+    height: 60%;
+    width: 60%;
+    border-radius: 100% 0% 67% 33% / 34% 29% 71% 66% ;
+    background-color: #0093ff;
+
+}*/
+section aside img {
+    position: absolute;
+    top: 50%;
+    right: 1.5%;
+    transform: translate(0, -50%);
+    /*height: 100%;*/
+    width: 50%;
+}
+
+#leftSideWords {
+    position: absolute;
+    top: 30%;
+    bottom: 20%;
+}
+#helloIm {
+    left: 10%;
+    position: absolute;
+    color: #0CAE9B;
+    font-size: 100%;
+}
+
+/*
+section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section>aside{
+    position: absolute;
+    top: 50%;
+    right: 1.5%;
+    transform: translate(0, -50%);
+    height: 80%;
+    width: 30%;
+    background-color:red ;
+}
+*/
+
+/*
+img{
+    position: absolute;
+    top: 50%;
+    right: 1.5%;
     transform: translate(0, -50%);
     height: 80%;
     width: 30%;
 }
 
+
+*/
