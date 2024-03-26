@@ -58,6 +58,7 @@ nav a::before {
 
 }
 #sectionPage {
+    position: relative;
     top: 0;
     height: 100vh;
     width: 100vw;
@@ -69,7 +70,7 @@ nav a::before {
     left: 0;
     top: 10%;
     height: 80vh;
-    width: 50%;
+    width: 50vw;
     background-color:royalblue ;
     position: absolute;
 }
@@ -126,7 +127,7 @@ section aside img {
 #name {
     top: 10%;
     left: 8%;
-    position: absolute;
+    position: relative;
 }
 
 #name .first-word {
@@ -140,13 +141,29 @@ section aside img {
     color: white;
     font-size: 20px;
 }
-
-section>aside>div>p  {
-    top: 40%;
+#firstPagePara {
+    left: 5%;
+    bottom: 40%;
+    height: 12%;
+    width: 92%;
+    background-color: #22ff00;
     position: absolute;
-    width: 100%;
-    background-color: #ff0000;
+    color: white;
+    font-size: 15px;
 }
+#buttonField {
+    left: 40%;
+    bottom: 30%;
+    height: 12%;
+    width: 92%;
+    background-color: #dd00ff;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+}
+
+
+
 
 
 /*
