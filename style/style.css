@@ -33,6 +33,7 @@ header > img {
 }
 
 nav {
+    flex-wrap: wrap;
     flex: 1; /* Fill remaining space */
     display: flex;
     justify-content: center;
@@ -71,7 +72,7 @@ nav a::before {
     top: 10%;
     height: 80vh;
     width: 50vw;
-    background-color:royalblue ;
+    /*background-color:royalblue ;*/
     position: absolute;
 }
 #rightSide {
@@ -79,7 +80,7 @@ nav a::before {
     top: 10%;
     height: 80vh;
     width: 50%;
-    background-color: #34ea8a;
+    /*background-color: #34ea8a;*/
     position: absolute;
 }
 /*section aside #borderShaper{
@@ -146,22 +147,64 @@ section aside img {
     bottom: 40%;
     height: 12%;
     width: 92%;
-    background-color: #22ff00;
+    /*background-color: #22ff00;*/
     position: absolute;
     color: white;
     font-size: 15px;
 }
 #buttonField {
     left: 40%;
-    bottom: 30%;
+    bottom: 25%;
     height: 12%;
     width: 92%;
-    background-color: #dd00ff;
+    /*background-color: #dd00ff;*/
     position: absolute;
     color: white;
     font-size: 15px;
 }
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+.btn {
+    background-color: #34ea8a;
+    border: white;
+    font-weight: bold;
+
+}
+.btn {
+    background-color: #34ea8a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgba(255, 0, 0, 0);
+    transition: background-color 0.3s ease;
+    color: #252525;
+}
+
+.btn:hover::before {
+    /*background: #34ea8a;*/
+    color: #252525;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px #34ea8a;
+    text-shadow: 0 0 10px #34ea8a;
+    color: #252525;
+}
 
 
 
