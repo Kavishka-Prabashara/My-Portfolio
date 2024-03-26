@@ -108,6 +108,7 @@ section aside img {
     bottom: 20%;
 }
 #helloIm {
+    top: 0;
     left: 10%;
     position: absolute;
     font-size: 100%;
@@ -117,8 +118,36 @@ section aside img {
 }
 
 #helloIm .rest-word {
+
     color: white; /* Set color for the second word */
+    position: absolute;
 }
+
+#name {
+    top: 10%;
+    left: 8%;
+    position: absolute;
+}
+
+#name .first-word {
+    font-family: Anek Gurmukhi, sans-serif ;
+    font-size: 80px;
+    font-weight: bold;
+    color: #0CAE9B;
+}
+
+#name .rest-word {
+    color: white;
+    font-size: 20px;
+}
+
+section>aside>div>p  {
+    top: 40%;
+    position: absolute;
+    width: 100%;
+    background-color: #ff0000;
+}
+
 
 /*
 section {
