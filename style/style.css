@@ -110,8 +110,14 @@ section aside img {
 #helloIm {
     left: 10%;
     position: absolute;
-    color: #0CAE9B;
     font-size: 100%;
+}
+#helloIm .first-word {
+    color: #0CAE9B;
+}
+
+#helloIm .rest-word {
+    color: white; /* Set color for the second word */
 }
 
 /*
