@@ -115,7 +115,7 @@ nav a::before {
     background-color: #0093ff;
 
 }*/
-section aside img {
+section aside #proFilePic {
     position: absolute;
     top: 50%;
     right: 1.5%;

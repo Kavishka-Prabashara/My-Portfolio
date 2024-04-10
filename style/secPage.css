@@ -1,6 +1,24 @@
 #scndPage {
     height: 100vh;
     width: 100%;
-    background-color: #ff004f;
+}
 
+#2ndLeftSide {
+    height: 100%;
+    width: 50%;
+    left: 0;
+    background-color: #34ea8a;
+    position: absolute;
+}
+
+#2ndRightSide {
+    height: 100%;
+    width: 50%;
+    right: 0;
+    background-color: #0b5ab0;
+    position: absolute;
+}
+
+#aboutMeProPic {
+    width: 100px;
 }
