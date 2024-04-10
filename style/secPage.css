@@ -1,21 +1,25 @@
 #scndPage {
+    top: 100vh;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    background-color: aqua ;
 }
 
-#2ndLeftSide {
-    height: 100%;
-    width: 50%;
+#scndPage #2ndLeftSide {
+    top: 100vh;
     left: 0;
-    background-color: #34ea8a;
+    height: 100vh;
+    width: 50vw;
+    background-color: #ff0000;
     position: absolute;
 }
 
-#2ndRightSide {
-    height: 100%;
-    width: 50%;
+#scndPage #2ndRightSide {
+    top: 100vh;
     right: 0;
-    background-color: #0b5ab0;
+    height: 100vh;
+    width: 50vw;
+    background-color: #ff0000;
     position: absolute;
 }
 
