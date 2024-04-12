@@ -27,3 +27,8 @@
     flex-direction: column;
     align-items: center;
 }
+#tpcMySkills {
+    transform: rotate(-90deg);
+    text-align: justify;
+    white-space: nowrap;
+}
