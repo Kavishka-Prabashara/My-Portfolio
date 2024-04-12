@@ -10,3 +10,15 @@
     text-align: justify; /* Justify the text content */
     position: absolute;
 }
+#rightAsideSkill {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color:blue ;*/
+    text-align: justify; /* Justify the text content */
+    position: absolute;
+}
