@@ -1,14 +1,18 @@
 #fourthPage {
-    background-color: chartreuse;
-    height: 60vh;
+    top: 400vh;
+    /*background-color: chartreuse;*/
+    height: 100vh;
     width: 100%;
+    font-family: "Samsung Sans", serif;
+    color: white;
+    /*position: absolute;*/
 }
 .container {
     display: flex;
     justify-content: center;
 }
 .img {
-    width: 60px;
+    width: 50px;
 }
 
 .box {
