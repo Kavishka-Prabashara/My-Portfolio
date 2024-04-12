@@ -42,3 +42,24 @@
 .skillGrid > div {
     text-align: center;
 }
+.skillGrid > div:nth-child(1) {
+    background-color: #ff0000; /* Red */
+}
+
+.skillGrid > div:nth-child(2) {
+    background-color: #00ff00; /* Green */
+}
+
+.skillGrid > div:nth-child(3) {
+    background-color: #0000ff; /* Blue */
+}
+.skillGrid > div:nth-child(4) {
+    background-color: #ffa805; /* Blue */
+}
+
+.skillGrid > div:nth-child(5) {
+    background-color: #354435; /* Blue */
+}
+.skillGrid > div:nth-child(6) {
+    background-color: #fa734a; /* Blue */
+}
