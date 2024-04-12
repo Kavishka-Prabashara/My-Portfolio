@@ -32,3 +32,10 @@
     text-align: justify;
     white-space: nowrap;
 }
+.skillGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 350px); /* Increase width of grid cells */
+    grid-template-rows: repeat(3, 200px); /* Increase height of grid cells */
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+}
