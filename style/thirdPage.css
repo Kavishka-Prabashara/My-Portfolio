@@ -72,3 +72,10 @@
 
     }
 }
+.skillRate {
+    width: 100%;
+    height: 20px;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 10px; /* To create a rounded appearance */
+}
