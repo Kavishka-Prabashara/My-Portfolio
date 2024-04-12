@@ -86,3 +86,11 @@
     border: 1px solid black;
     border-radius: 10px; /* To create a rounded appearance */
 }
+#cssPercentage {
+    width: 50%;;
+    height: 20px;
+    background-color: #007bff;
+    border: 1px solid black;
+    border-radius: 10px; /* To create a rounded appearance */
+
+}
