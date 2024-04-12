@@ -101,3 +101,10 @@
     border: 1px solid black;
     border-radius: 10px; /* To create a rounded appearance */
 }
+#javaPercentage{
+    width: 70%;;
+    height: 20px;
+    background-color: #08ffdd;
+    border: 1px solid black;
+    border-radius: 10px; /* To create a rounded appearance */
+}
