@@ -39,3 +39,6 @@
     grid-column-gap: 100px;
     grid-row-gap: 20px;
 }
+.skillGrid > div {
+    text-align: center;
+}
