@@ -22,3 +22,8 @@
     text-align: justify; /* Justify the text content */
     position: absolute;
 }
+#thirdPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
