@@ -63,3 +63,4 @@
 .skillGrid > div:nth-child(6) {
     background-color: #fa734a; /* Blue */
 }
+@media screen and (max-width: 600px) {}
