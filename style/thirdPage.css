@@ -1,5 +1,11 @@
+#thirdPage{
+    top: 200vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua ;
+}
 #leftAsideSkill {
-    top: 0;
+    top: 200vh;
     left: 0;
     height: 100vh; /* Adjusted to 100vh */
     width: 50px;
@@ -11,7 +17,7 @@
     position: absolute;
 }
 #rightAsideSkill {
-    top: 0;
+    top: 200vh;
     right: 0;
     height: 100%;
     width: 90%;
@@ -35,40 +41,40 @@
 .skillGrid {
     display: grid;
     grid-template-columns: repeat(2, 350px); /* Increase width of grid cells */
-    grid-template-rows: repeat(3, 200px); /* Increase height of grid cells */
+    grid-template-rows: repeat(3, 100px);
     grid-column-gap: 100px;
     grid-row-gap: 20px;
 }
 .skillGrid > div {
     text-align: center;
 }
-.skillGrid > div:nth-child(1) {
-    background-color: #ff0000; /* Red */
+/*.skillGrid > div:nth-child(1) {
+    background-color: #ff0000; !* Red *!
 }
 
 .skillGrid > div:nth-child(2) {
-    background-color: #00ff00; /* Green */
+    background-color: #00ff00; !* Green *!
 }
 
 .skillGrid > div:nth-child(3) {
-    background-color: #0000ff; /* Blue */
+    background-color: #0000ff; !* Blue *!
 }
 .skillGrid > div:nth-child(4) {
-    background-color: #ffa805; /* Blue */
+    background-color: #ffa805; !* Blue *!
 }
 
 .skillGrid > div:nth-child(5) {
-    background-color: #354435; /* Blue */
+    background-color: #354435; !* Blue *!
 }
 .skillGrid > div:nth-child(6) {
-    background-color: #fa734a; /* Blue */
-}
+    background-color: #fa734a; !* Blue *!
+}*/
 @media screen and (max-width: 600px) {
     .skillGrid {
         grid-template-columns: repeat(1,400px); /* 1 column */
-        grid-template-rows: repeat(6, 100px); /* 6 rows */
+        grid-template-rows: repeat(6, 60px); /* 6 rows */
         grid-column-gap: 0; /* Remove column gap */
-        grid-row-gap: 20px;
+        grid-row-gap: 8px;
 
     }
 }
