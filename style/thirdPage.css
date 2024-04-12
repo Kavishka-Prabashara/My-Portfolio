@@ -94,3 +94,10 @@
     border-radius: 10px; /* To create a rounded appearance */
 
 }
+#jsPercentage{
+    width: 70%;
+    height: 20px;
+    background-color: #fff608;
+    border: 1px solid black;
+    border-radius: 10px; /* To create a rounded appearance */
+}
