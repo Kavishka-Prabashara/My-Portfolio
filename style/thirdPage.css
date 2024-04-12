@@ -1,6 +1,12 @@
-#thirdPage {
-    top: 200vh;
-    height: 100vh;
-    width: 100vw;
-    background-color: aqua ;
+#leftAsideSkill {
+    top: 0;
+    left: 0;
+    height: 100vh; /* Adjusted to 100vh */
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:red ;
+    text-align: justify; /* Justify the text content */
+    position: absolute;
 }
