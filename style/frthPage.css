@@ -1,11 +1,16 @@
 #fourthPage {
     top: 400vh;
     /*background-color: chartreuse;*/
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     font-family: "Samsung Sans", serif;
     color: white;
     /*position: absolute;*/
+}
+#Education{
+    position: absolute;
+    text-align: left;
+    color: #252525;
 }
 .container {
     display: flex;
