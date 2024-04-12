@@ -63,4 +63,12 @@
 .skillGrid > div:nth-child(6) {
     background-color: #fa734a; /* Blue */
 }
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .skillGrid {
+        grid-template-columns: repeat(1,400px); /* 1 column */
+        grid-template-rows: repeat(6, 100px); /* 6 rows */
+        grid-column-gap: 0; /* Remove column gap */
+        grid-row-gap: 20px;
+
+    }
+}
