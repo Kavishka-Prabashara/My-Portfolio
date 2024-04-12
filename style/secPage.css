@@ -1,28 +1,40 @@
+/* Apply styles to LeftSide and RightSide */
 #scndPage {
-    top: 100vh;
-    height: 100vh;
+    display: flex; /* Use flexbox */
+    height: 60vh;
     width: 100vw;
-    background-color: aqua ;
 }
 
-#scndPage #2ndLeftSide {
-    top: 100vh;
-    left: 0;
-    height: 100vh;
-    width: 50vw;
-    background-color: #ff0000;
-    position: absolute;
-}
-
-#scndPage #2ndRightSide {
-    top: 100vh;
-    right: 0;
-    height: 100vh;
-    width: 50vw;
-    background-color: #ff0000;
-    position: absolute;
+#2ndLeftSide {
+    flex: 1; /* Occupy 50% of the width */
+    display: flex; /* Use flexbox */
+    /*justify-content: center; !* Center items horizontally *!*/
+    align-items: center; /* Center items vertically */
+    background-color: red;
+    position: relative; /* Set position to relative */
 }
 
 #aboutMeProPic {
-    width: 100px;
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#2ndRightSide {
+    flex: 1; /* Occupy 50% of the width */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: blue;
+    position: relative; /* Set position to relative */
+
+}
+
+/* Additional styles for tpcAboutMe */
+#tpcAboutMe {
+    font-size: 24px;
+    font-weight: bold;
+    top: 20%; /* Set top position to 20% */
+    position: relative; /* Set position to relative */
+}
+#2ndRightSide p {
+    top: 20%; /* Set top position to 20% */
+    position: relative;
 }
