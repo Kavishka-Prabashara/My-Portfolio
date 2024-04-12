@@ -79,3 +79,10 @@
     border: 1px solid black;
     border-radius: 10px; /* To create a rounded appearance */
 }
+#htmlPercentage{
+    width: 90%;
+    height: 20px;
+    background-color: #ff0000;
+    border: 1px solid black;
+    border-radius: 10px; /* To create a rounded appearance */
+}
