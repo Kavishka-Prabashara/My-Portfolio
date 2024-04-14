@@ -34,8 +34,19 @@ footer nav a {
     margin: 0 10px; /* Adjust margin as needed */
 }
 footer nav a i {
-    font-size: 30px;
+    font-size: 24px; /* Adjust the size as needed */
+    color: #000; /* Default color */
+    transition: color 0.3s ease; /* Smooth transition */
 }
+
+footer nav a i:hover {
+    color: #555; /* Color on hover */
+}
+
+footer nav a i:active {
+    transform: scale(0.9); /* Scale down on click */
+}
+
 
 footer p {
     margin-top: 20px; /* Add some margin space */
