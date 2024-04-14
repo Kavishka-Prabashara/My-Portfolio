@@ -44,3 +44,6 @@ img{
     text-align: center; /* Center align the content */
     font-size: 20px; /* Increase font size */
 }
+p {
+    text-align: center; /* Center align the paragraph */
+}
