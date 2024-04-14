@@ -5,6 +5,8 @@
     background-color: aqua ;
 }
 .rectangle7Page {
+    height: 100px;
+    width: 600px;
     background-color: black;
     color: white; /* Set text color to white for better visibility */
     padding: 20px; /* Add some padding for spacing */
