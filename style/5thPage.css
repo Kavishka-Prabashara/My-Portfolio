@@ -47,3 +47,6 @@ img{
 p {
     text-align: center; /* Center align the paragraph */
 }
+.button:hover{
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+}
