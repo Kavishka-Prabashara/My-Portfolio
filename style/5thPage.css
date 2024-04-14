@@ -1,6 +1,8 @@
-#fifthPage {
-    top: 400vh;
-    height: 100vh;
-    width: 100vw;
-    background-color: aqua ;
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
 }
