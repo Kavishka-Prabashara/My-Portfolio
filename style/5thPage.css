@@ -6,3 +6,13 @@
     align-items: center;
     overflow: hidden;
 }
+.imgContainer{
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
