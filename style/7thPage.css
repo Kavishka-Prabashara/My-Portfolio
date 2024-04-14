@@ -35,12 +35,11 @@ footer nav a {
 }
 footer nav a i {
     font-size: 24px; /* Adjust the size as needed */
-    color: #000; /* Default color */
     transition: color 0.3s ease; /* Smooth transition */
 }
 
 footer nav a i:hover {
-    color: #555; /* Color on hover */
+    color: #09eeff; /* Color on hover */
 }
 
 footer nav a i:active {
