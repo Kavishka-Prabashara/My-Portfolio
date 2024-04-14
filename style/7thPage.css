@@ -36,3 +36,6 @@ footer nav a {
 footer p {
     margin-top: 20px; /* Add some margin space */
 }
+#blackBar {
+    background-color: #252525;
+}
