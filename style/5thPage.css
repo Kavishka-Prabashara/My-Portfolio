@@ -131,3 +131,22 @@ p {
 .container {
     text-align: center; /* Center align its children */
 }
+
+.readMore {
+    display: inline-block;
+    font: bold 14px "Samsung Sans Serif", Arial, sans-serif;
+    color: black;
+    text-align: center;
+    bottom: 0;
+}
+
+.readMore:hover {
+    color: aqua;
+}
+
+
+.readMore:hover {
+    color: aqua; /* Change text color on hover */
+}
+
+.img{height: 240px;}
