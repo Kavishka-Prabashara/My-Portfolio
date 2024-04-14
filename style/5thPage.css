@@ -16,9 +16,18 @@
     align-items: center;
     transition: 1s;
 }
-.slide_div{
+.slide_div {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 30px 0 30px;
+}
+img{
+    position: relative;
+    height: 240px;
+    width: 240px;
+    filter: saturate(10%);
+    transition: 0.7s;
+    /*    background-color: rgba(0, 0, 0, 0.4);*/
+    border-radius: 20px;
 }
