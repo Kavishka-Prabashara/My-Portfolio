@@ -4,3 +4,9 @@
     width: 100vw;
     background-color: aqua ;
 }
+.rectangle7Page {
+    background-color: black;
+    color: white; /* Set text color to white for better visibility */
+    padding: 20px; /* Add some padding for spacing */
+    margin-bottom: 20px; /* Add margin bottom for spacing between rectangles */
+}
