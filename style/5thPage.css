@@ -31,3 +31,12 @@ img{
     /*    background-color: rgba(0, 0, 0, 0.4);*/
     border-radius: 20px;
 }
+
+.button{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    transition: 0.7s;
+    /*    background-color: rgba(0, 0, 0, 0.4);*/
+    border-radius: 20px;
+}
