@@ -20,3 +20,19 @@
     padding: 20px; /* Add some padding for spacing */
     margin-bottom: 20px; /* Add margin bottom for spacing between rectangles */
 }
+footer {
+    text-align: center;
+}
+
+footer nav {
+    display: inline-block;
+}
+
+footer nav a {
+    display: inline-block;
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+footer p {
+    margin-top: 20px; /* Add some margin space */
+}
