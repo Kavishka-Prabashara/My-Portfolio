@@ -22,6 +22,7 @@
 }
 footer {
     text-align: center;
+    color: white;
 }
 
 footer nav {
@@ -31,6 +32,9 @@ footer nav {
 footer nav a {
     display: inline-block;
     margin: 0 10px; /* Adjust margin as needed */
+}
+footer nav a i {
+    font-size: 30px;
 }
 
 footer p {
