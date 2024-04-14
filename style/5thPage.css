@@ -40,3 +40,7 @@ img{
     /*    background-color: rgba(0, 0, 0, 0.4);*/
     border-radius: 20px;
 }
+#tpcExpertiseArea {
+    text-align: center; /* Center align the content */
+    font-size: 20px; /* Increase font size */
+}
