@@ -23,9 +23,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <header>
 
@@ -44,7 +47,7 @@
             </ul>
             <i class="fa-solid wfa-bars" onclick="openmenu()"></i>
         </nav>
-        <div id="toggleBtn">
+        <div id="toggleBtn" >
 
 
         </div>
@@ -77,7 +80,7 @@
             </aside>
         </section>
 
-<!--        <section id="homePageEffect">
+&lt;!&ndash;        <section id="homePageEffect">
             <img src="assets/bgHomeEffect.svg">
             <aside>
                 <div id="img-profile">
@@ -95,12 +98,12 @@
                     I thrive on delivering top-notch services that not only meet but exceed customer expectations, keeping them coming back for more.
                 </p>
 
-                <button id="btnHireMe">Hire me</button>
+                <button id="btnHireMe2">Hire me</button>
 
-                <button id="btnDownloadCV">Download Cv</button>
+                <button id="btnDownloadCV2">Download Cv</button>
 
             </aside>
-        </section>-->
+        </section>&ndash;&gt;
 
 
         <section id="scndPage">
@@ -113,7 +116,7 @@
             </aside>
 
             <aside id="2ndRightSide">
-                <div id="tpcAboutMe">
+                <div id="tpcAboutMe" >
                     About me
                 </div>
                 <p>Hello,</p><br>
@@ -380,7 +383,531 @@
     </div>
 
 </footer>
+    <script>AOS.init();</script>
 
 </body>
 
 </html>
+
+
+<!--
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title> K  A  V  I  S  H  K  A </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style/secPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    &lt;!&ndash;for light mode&ndash;&gt;
+    &lt;!&ndash;<img src="assets/images/logo/for_light_theam.png" alt="KPW logo">&ndash;&gt;
+    &lt;!&ndash;for light mode&ndash;&gt;
+    <img src="assets/images/logo/for_dark_theam.png" alt="KPW logo">
+
+    <nav>
+        <ul id="slideMenu">
+            <a href="#about_me">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#assignments">My Tasks</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact Me</a>
+        </ul>
+    </nav>
+    <div id="toggleBtn">
+    </div>
+</header>
+
+&lt;!&ndash;loading page start&ndash;&gt;
+&lt;!&ndash;    <section class="loading">&ndash;&gt;
+&lt;!&ndash;        <div class="ring">Loading&ndash;&gt;
+&lt;!&ndash;            <span></span>&ndash;&gt;
+&lt;!&ndash;        </div>&ndash;&gt;
+&lt;!&ndash;    </section>&ndash;&gt;
+&lt;!&ndash;loading page end&ndash;&gt;
+
+&lt;!&ndash; ************************************* Home start ********************************************* &ndash;&gt;
+
+<section class="sectionPage" id="sectionPage" >
+
+    &lt;!&ndash;home page left side start &ndash;&gt;
+    <aside id="leftSide">
+        <div id="leftSideWords">
+            <div id="helloIm"><span class="first-word">Hello</span>    <span class="rest-word">I'm</span></div>
+            <div id="name"><span class="first-word">Kavishka</span> <span class="rest-word">Prabashara</span></div>
+        </div>
+        <div id="mypost">Front-End Developer</div>
+
+        <div id="firstPagePara">
+            <p>
+                A seasoned web developer with over 5 years of experience in creating dynamic <br> and engaging websites.
+                I thrive on delivering top-notch services that not only <br> meet but exceed customer expectations, keeping them coming back for more.
+            </p>
+        </div>
+        <div id="buttonField">
+            <a href="#contact">
+                <button class="btn" id="btnHireMe">Hire me</button>
+            </a>
+
+            <a href="">
+                <button class="btn" id="btnDownloadCV">Download Cv</button>
+            </a>
+        </div>
+    </aside>
+    &lt;!&ndash;home page left side end &ndash;&gt;
+
+    &lt;!&ndash;home page right side start&ndash;&gt;
+    <aside id="rightSide">
+        <img src="assets/images/home/propic1.png" alt="Profile Picture" id="proFilePic">
+        <img src="assets/images/home/Ellipse%2019.png" alt="Profile Picture" id="proFilePic_behind">
+        <div id="borderShaper"></div>
+
+        &lt;!&ndash;social media start&ndash;&gt;
+        <div class="social">
+            <a href="https://lk.linkedin.com/in/kavishka-prabashara-wijerathna-899588189"><i class="fa-brands fa-linkedin"></i></a> <br>
+            <a href="https://www.facebook.com/kavishka.prabashara.7?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a> <br>
+            <a href="https://www.instagram.com/Kavishka_Prabashara"><i class="fa-brands fa-instagram"> </i></a> <br>
+            <a href="https://github.com/Kavishka-Prabashara"><i class="fa-brands fa-github"></i></i></a>
+        </div>
+        &lt;!&ndash;social media end&ndash;&gt;
+    </aside>
+    &lt;!&ndash;home page right side end &ndash;&gt;
+
+
+
+</section>
+
+&lt;!&ndash; *************************************** Start end ********************************************* &ndash;&gt;
+
+&lt;!&ndash;        <div>&ndash;&gt;
+&lt;!&ndash;            <img id="between_pg" src="assets/Rectangle%20269%20-%20Copy.png" alt="rec">&ndash;&gt;
+&lt;!&ndash;        </div>&ndash;&gt;
+&lt;!&ndash; ************************************* About Me start ********************************************* &ndash;&gt;
+
+<section id="about_me">
+    <div class="center-container">
+        <div class="shadow-topic" >
+            <h1> A B O U T  M E</h1>
+        </div>
+
+        <div id="profilePicContainer" data-aos="zoom-out">
+            <img src="assets/propic1.png" alt="Profile Picture" id="proFilePic2">
+            &lt;!&ndash;                    <span class="circle-spin"></span>&ndash;&gt;
+        </div>
+
+        <div class="about-heading">
+            <div class="about-details-heading">
+                <h2>Hi There, <br> <span>I’m Kavishka Prabashara Wijerathna.</span></h2>
+            </div>
+        </div>
+
+        <div id="aboutMePara">
+            <p>
+                I’m 23 years old young and highly active enthusiast.  I’m a UI/UX designer living in Aluthgama, Sri Lanka.
+                <br>I’m currently studying in Institute of Java & Software Engineering (IJSE) in branch Panadura. My interests are in Front End Engineering. I have a good knowledge of Java.
+                My hope is to become a talented software engineer and to make life successful
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="skill">
+    <aside id="left">
+        <div class="column">
+            <div class="col-md-6">
+                <div class="progress-wrap">
+                    <h3><span class="name-left">HTML5</span></h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-wrap">
+                    <h3><span class="name-left">JavaScript</span></h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-wrap">
+                    <h3><span class="name-left">My SQL</span></h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <aside id="right">
+        <div class="column">
+            <div class="col-md-6">
+                <div class="progress-wrap">
+                    <h3><span class="name-left">CSS</span></h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-5" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-wrap">
+                    <h3><span class="name-left">Java</span></h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-wrap">
+                    <h3><span class="name-left">Python</span></h3>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-1" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</section>
+
+&lt;!&ndash; ************************************* About Me end ********************************************* &ndash;&gt;
+
+&lt;!&ndash; ************************************* Education Start ********************************************* &ndash;&gt;
+
+<section class="education-container-box" id="education">
+    <div class="shadow-topic" >
+        <h1> E D U C A T I O N </h1>
+    </div>
+
+    <div class="education-container">
+        <div data-aos="fade-up">
+            <img class="edu_image" src="assets/images/logo/gnc-logo.png" alt="o/l">
+            <p class="edu_para"> G/Gonagala National School 2007-2017 <br> Graduated O/L Examination -2017 </p>
+        </div>
+
+        <div data-aos="fade-up">
+            <img class="edu_image" src="assets/images/logo/ds-logo.png" alt="a/l">
+            <p class="edu_para">K/DS Senanayake National School 2018-2022 <br> Graduated A/L Examination -2021(2022)</p>
+        </div>
+
+        <div data-aos="fade-up">
+            <img class="edu_image" src="assets/images/logo/one_world_foundation%20.png" alt="english">
+            <p class="edu_para"> One World Foundation <br> Completed English Course 2018-2018</p>
+        </div>
+
+        <div data-aos="fade-up">
+            <img class="edu_image " id="edu_image4" src="assets/images/logo/ijse-logo.png" alt="ijse">
+            <p class="edu_para" id="edu_para4"> IJSE - Institute of software Engineering 2023 <br> Still Learning </p>
+        </div>
+    </div>
+</section>
+
+&lt;!&ndash; ****************************************** Education End ********************************************* &ndash;&gt;
+
+&lt;!&ndash; ****************************************** Expertise Start ********************************************* &ndash;&gt;
+
+<section class="expertise" id="expertise" data-scene>
+    <div class="shadow-topic">
+        <h1> E X P E R T I S E </h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="expertise-gallery">
+
+                <div class="item" data-aos="zoom-in" >
+                    <div class="lines"></div>
+                    <div class="inner">
+                        &lt;!&ndash;                                <a href="https://github.com/Anuki-Dilara/connect-four-game" target="_blank" style="cursor: pointer"></a>&ndash;&gt;
+
+                        <img src="assets/images/projects/project%20%20(1).png" alt="chat app" />
+                        <div class="project-layer">
+                            <h4> <b>Chat App</b></h4>
+                            <h5> A multi-user real-time communication application designed using Socket Programming for group communication. </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" data-aos="zoom-in">
+                    <div class="lines"></div>
+                    <div class="inner">
+                        <img src="assets/images/projects/project%20%20(2).png" alt="portfolio"/>
+                        <div class="project-layer">
+                            <h4><b>Gold Ceylon Coffee</b></h4>
+                            <h5>The Gold Ceylon Coffee Shop project is a JavaFX-based application integrated with SQL for database management.</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" data-aos="zoom-in" >
+                    <div class="lines"></div>
+                    <div class="inner">
+                        <img src="assets/images/projects/project%20%20(3).png" alt="portfolio"/>
+                        <div class="project-layer">
+                            <h4><b>RestoRise</b></h4>
+                            <h5>Restorise Restaurant Project is a comprehensive software solution designed to streamline various aspects of restaurant management.</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" data-aos="zoom-in" >
+                    <div class="lines"></div>
+                    <div class="inner">
+                        <img src="assets/images/projects/project%20%20(4).png" alt="portfolio"/>
+                        <div class="project-layer">
+                            <h4><b>Paramitha 05 Pre School</b></h4>
+                            <h5>The Paramitha Preschool Project is a comprehensive educational platform tailored specifically for preschool-aged children.</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" data-aos="zoom-in" >
+                    <div class="lines"></div>
+                    <div class="inner">
+                        <img src="assets/images/projects/project%20%20(5).png" alt="portfolio"/>
+                        <div class="project-layer">
+                            <h4><b>Induruwa Catering</b></h4>
+                            <h5>The Induruwa Catering Service Project is a sophisticated software solution tailored specifically for catering businesses.</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" data-aos="zoom-in" >
+                    <div class="lines"></div>
+                    <div class="inner">
+                        <img src="assets/images/projects/project%20%20(6).png" alt="portfolio"/>
+                        <div class="project-layer">
+                            <h4><b>Induruwa Hospital</b></h4>
+                            <h5>The Induruwa Hospital Project is a comprehensive health management system designed to improve hospital facilities in the area.</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+&lt;!&ndash; ****************************************** Expertise End ********************************************* &ndash;&gt;
+
+&lt;!&ndash; ****************************************** assignment start ********************************************* &ndash;&gt;
+
+<section class="assignments" id="assignments" data-scene>
+    <div class="shadow-topic">
+        <h1>Assignments</h1>
+    </div>
+
+    <div class="assignment-container">
+        <div class="assignment-card">
+            <img src="assets/images/assignments/animation-case1.gif"/>
+            <div class="assigment-layer">
+                <h4>Assignment 1</h4>
+                <a href="assignments/CSS/CSS/CASE-01/index.html" target="_blank"></a>
+            </div>
+        </div>
+
+        <div class="assignment-card">
+            <img src="assets/images/assignments/animation-case2.gif"/>
+            <div class="assigment-layer">
+                <h4>Assignment 2</h4>
+                <a href="assignments/CSS/CSS/CASE-02/index.html" target="_blank"> </a>
+            </div>
+        </div>
+
+        <div class="assignment-card">
+            <img src="assets/images/assignments/F29G6AAIKIKTAXQ.webp"/>
+            <div class="assigment-layer">
+                <h4>Assignment 3</h4>
+                <a href="assignments/CSS/CSS/CASE-03/index.html" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+    <a href="assignment.html" class="button"> More </a>
+
+</section>
+
+&lt;!&ndash; ****************************************** assignment End ********************************************* &ndash;&gt;
+
+&lt;!&ndash; ****************************************** Gallery Start ********************************************* &ndash;&gt;
+
+<section id="gallery" class="gallery">
+    <div class="shadow-topic">
+        <h1> M Y  G A L L E R Y </h1>
+    </div>
+
+    <div class="gallery-wrapper">
+        <div class="gallery-container">
+            <p>
+                <img class="gallery_4to" src="assets/images/gallery/WhatsApp%20Image%202024-04-18%20at%2022.57.42_57bd9e47.jpg">
+                <img class="gallery_4to" src="assets/images/gallery/WhatsApp%20Image%202024-04-24%20at%2012.24.30_3a30fa10.jpg">
+                <img class="gallery_4to" src="assets/images/gallery/WhatsApp%20Image%202024-04-24%20at%2012.24.27_91c4ca4b.jpg">
+                <img class="gallery_4to" src="assets/images/gallery/WhatsApp%20Image%202024-04-24%20at%2012.24.28_fee9e770.jpg">
+                <img class="gallery_4to" src="assets/images/gallery/WhatsApp%20Image%202024-04-29%20at%2013.58.04_e4f04572.jpg">
+            </p>
+
+            <p>
+                <img class="gallery_4to" src="assets/images/gallery/WhatsApp%20Image%202024-04-18%20at%2022.57.42_57bd9e47.jpg">
+                <img class="gallery_4to" src="assets/images/gallery/WhatsApp%20Image%202024-04-18%20at%2022.57.42_57bd9e47.jpg">
+                <img class="gallery_4to" src="assets/images/gallery/WhatsApp%20Image%202024-04-18%20at%2022.57.42_57bd9e47.jpg">
+            </p>
+        </div>
+    </div>
+</section>
+
+&lt;!&ndash; ****************************************** Gallery End ********************************************* &ndash;&gt;
+
+&lt;!&ndash; ****************************************** service End ********************************************* &ndash;&gt;
+
+<section class="service" id="service">
+    <div class="shadow-topic" >
+        <h1 id="shadow-topic-service" >
+            SERVICE I <br> OFFER ?
+        </h1>
+    </div>
+
+    &lt;!&ndash;<h1 class="service_para">I provide one-stop service for you. My goal is to reduce the hassle and save you time</h1>&ndash;&gt;
+
+    <div class="service_container">
+        <img class="service_img" src="assets/images/fd1b8b7ce86545f05e7fa01713ead529-removebg-preview1%204.png" alt="service background image">
+
+        <div class="service-row">
+            <div class="service-column">
+                <div class="service-box" >
+                    <div class="service-content" >
+                        <div class="content" data-aos="fade-left" data-aos-delay="10" >
+                            <h2> Web Development </h2>
+                            <p class="service-paragra"> The coding backbone, turning designs into functional websites and apps, ensuring robust and efficient digital solutions. </p>
+                        </div>
+                    </div>
+
+                    <div class="service-content">
+                        <div class="content" data-aos="fade-left" data-aos-delay="20">
+                            <h2> UI/UX Design </h2>
+                            <p class="service-paragra"> Optimizing the overall user journey, understanding behavior, and ensuring an intuitive and enjoyable experience through wireframes and design. </p>
+                        </div>
+                    </div>
+
+                    <div class="service-content">
+                        <div class="content" data-aos="fade-left" data-aos-delay="30">
+                            <h2> Software Development </h2>
+                            <p class="service-paragra"> Behind the scenes, skilled developers write, test, and maintain code, bringing designs to life and implementing functionalities, ensuring a seamless and dynamic digital experience. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+&lt;!&ndash; ****************************************** service End ********************************************* &ndash;&gt;
+
+&lt;!&ndash; ****************************************** contact End ********************************************* &ndash;&gt;
+
+<section class="contact" id="contact">
+
+    <div class="shadow-topic" >
+        <h1> C O N T A C T  M E</h1>
+    </div>
+
+    <div class="container" data-aos="fade-up">
+        <div class="contact-Info">
+
+            <div class="content">
+                &lt;!&ndash; Info-1 &ndash;&gt;
+                <div class="info">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4 class="d-inline-block">PHONE :
+                        <br>
+                        <span> +94 71 599 7463 </span></h4>
+                </div>
+                &lt;!&ndash; Info-2 &ndash;&gt;
+                <div class="info">
+                    <i class="far fa-envelope"></i>
+                    <h4 class="d-inline-block">EMAIL :
+                        <br>
+                        <span>kavishkaprabashara@gmail.com</span></h4>
+                </div>
+                &lt;!&ndash; Info-3 &ndash;&gt;
+                <div class="info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4 class="d-inline-block">ADDRESS :<br>
+                        <span>474/A , <br> Galagama, <br> Induruwa</span></h4>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="contact-form">
+                <form action="">
+                    <h2>Have you any Questions ? </h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span> Full Name</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span> E-mail </span>
+                    </div>
+
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span> Type your Message</span>
+                    </div>
+
+                    <input class="submit-button" type="submit" name="" value="Send">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+&lt;!&ndash; ****************************************** contact End ********************************************* &ndash;&gt;
+
+<div class="footer-basic">
+    <footer class="footer">
+        <div class="social">
+            <a href="https://lk.linkedin.com/in/kavishka-prabashara-wijerathna-899588189"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/kavishka.prabashara.7?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/Kavishka_Prabashara"><i class="fa-brands fa-instagram"> </i></a>
+            <a href="https://github.com/Kavishka-Prabashara"><i class="fa-brands fa-github"></i></i></a>
+        </div>
+
+        <div class="content" data-aos="fade-up">
+            <p class="foot-para"> If you could touch my creative mind ,,, <br>
+                I’m always open to discussing new projects, creative ideas and designs to be part of your vision ...
+            </p>
+        </div>
+
+        <p class="copyright">© COPYRIGHTS 2024. ALL RIGHTS RESERVED.
+            <br>Designed by Kavishka Prabashara Wijerathna</p>
+    </footer>
+</div>
+
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
+</body>
+
+
+</html>
+&ndash;&gt;
+-->
