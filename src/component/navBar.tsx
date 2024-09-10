@@ -22,7 +22,7 @@ const NavBar = () => {
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="home" spy={true} smooth={true} offset={-70} >Home</Link>
+                        <Link to="home" spy={true} smooth={true} offset={-70}>Home</Link>
                     </li>
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
@@ -32,28 +32,29 @@ const NavBar = () => {
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="services" spy={true} smooth={true} offset={-70}>Service</Link>
+                        <Link to="skills" spy={true} smooth={true} offset={-70}>Skills</Link>
                     </li>
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="skills" spy={true} smooth={true} offset={-70} >Skills</Link>
+                        <Link to="project" spy={true} smooth={true} offset={-70}>Projects</Link>
                     </li>
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="projects" spy={true} smooth={true} offset={-70} >Projects</Link>
+                        <Link to="service" spy={true} smooth={true} offset={-70}>Service</Link>
                     </li>
+
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="contact" spy={true} smooth={true} offset={-70}>Contact Me</Link>
+                        <Link to="contactMe" spy={true} smooth={true} offset={-70}>Contact Me</Link>
                     </li>
                 </ul>
                 <div className="rel ative hidden md:flex items-center justify-center gap-3 font-semibold text-base">
                     <i
                         className="bx bx-menu xl:hidden block text-5xl cursor-pointer text-black"
-                        onClick={()=> setIsMenuOpen(!isMenuOpen)}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                     ></i>
                     <div
                         className={`absolute top-24 left-0 w-full bg-amber-200 flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`}
