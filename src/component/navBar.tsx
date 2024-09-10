@@ -2,20 +2,13 @@ import { useState } from 'react';
 import { Link } from 'react-scroll';
 
 const NavBar = () => {
-    const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+    const [isMenuOpen , setIsMenuOpen] = useState(false);
 
-    const closeMenu = () => {
-        setIsOpen(false);
-    };
 
     return (
         <div
-            className="w-full h-1 mt-2 fixed top-0 left-0 z-50 flex justify-between items-center text-black py-6 px-8 md:px-32 bg-amber-200 drop-shadow-md rounded-2xl "
-            /*className="w-full mt-2 fixed top-0 left-0 z-50 flex justify-between items-center text-black py-6 px-8 md:px-32 bg-amber-200 drop-shadow-md rounded-2xl"*/
+            className="w-full h-1 mt-2 fixed top-2 left-0 z-50 flex justify-between items-center text-black py-6 px-8 md:px-32 bg-amber-200 drop-shadow-md rounded-2xl "
         >
             <a href="#">
                 <img
@@ -25,43 +18,55 @@ const NavBar = () => {
                 />
             </a>
             <nav className="flex flex-col md:flex-row items-center gap-12 font-semibold text-base">
-                <ul className={`md:flex ${isOpen ? 'block' : 'hidden'} items-center gap-12`}>
+                <ul className="hidden xl:flex items-center gap-12 font-semibold text-base">
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="home" spy={true} smooth={true} offset={-70} onClick={closeMenu}>Home</Link>
+                        <Link to="home" spy={true} smooth={true} offset={-70} >Home</Link>
                     </li>
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="about" spy={true} smooth={true} offset={-70} onClick={closeMenu}>About</Link>
+                        <Link to="about" spy={true} smooth={true} offset={-70}>About</Link>
                     </li>
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="services" spy={true} smooth={true} offset={-70} onClick={closeMenu}>Service</Link>
+                        <Link to="services" spy={true} smooth={true} offset={-70}>Service</Link>
                     </li>
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="skills" spy={true} smooth={true} offset={-70} onClick={closeMenu}>Skills</Link>
+                        <Link to="skills" spy={true} smooth={true} offset={-70} >Skills</Link>
                     </li>
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="projects" spy={true} smooth={true} offset={-70} onClick={closeMenu}>Projects</Link>
+                        <Link to="projects" spy={true} smooth={true} offset={-70} >Projects</Link>
                     </li>
                     <li
                         className="p-3 hover:bg-amber-200 hover:text-amber-50 rounded-md transition-all cursor-pointer"
                     >
-                        <Link to="contact" spy={true} smooth={true} offset={-70} onClick={closeMenu}>Contact Me</Link>
+                        <Link to="contact" spy={true} smooth={true} offset={-70}>Contact Me</Link>
                     </li>
                 </ul>
-                <div className="relative hidden md:flex items-center justify-center gap-3 font-semibold text-base">
+                <div className="rel ative hidden md:flex items-center justify-center gap-3 font-semibold text-base">
                     <i
                         className="bx bx-menu xl:hidden block text-5xl cursor-pointer text-black"
-                        onClick={toggleMenu}
+                        onClick={()=> setIsMenuOpen(!isMenuOpen)}
                     ></i>
+                    <div
+                        className={`absolute top-24 left-0 w-full bg-amber-200 flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+                        style={{transition: "transform 0.3s ease,opacity 0.3s ease"}}>
+                        <li className="list-none w-full text-center p-4 hover:bg-amber-200 hover:text-white transition-all cursor-pointer">Home</li>
+                        <li className="list-none w-full text-center p-4 hover:bg-amber-200 hover:text-white transition-all cursor-pointer">About</li>
+                        <li className="list-none w-full text-center p-4 hover:bg-amber-200 hover:text-white transition-all cursor-pointer">Service</li>
+                        <li className="list-none w-full text-center p-4 hover:bg-amber-200 hover:text-white transition-all cursor-pointer">Skills</li>
+                        <li className="list-none w-full text-center p-4 hover:bg-amber-200 hover:text-white transition-all cursor-pointer">Project</li>
+                        <li className="list-none w-full text-center p-4 hover:bg-amber-200 hover:text-white transition-all cursor-pointer">Contact Me</li>
+
+
+                    </div>
                 </div>
             </nav>
         </div>
