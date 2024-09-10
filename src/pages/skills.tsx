@@ -3,9 +3,9 @@
 
 const Skills = () => {
     return (
-        <div className="skills-container">
+        <section id="skills" className="h-screen skills-container">
             Skills
-        </div>
+        </section>
     );
 }
 

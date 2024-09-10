@@ -3,9 +3,9 @@
 
 const Project = () => {
     return (
-        <div className="project-container">
+        <section id="project" className="h-screen project-container">
             Project
-        </div>
+        </section>
     );
 }
 

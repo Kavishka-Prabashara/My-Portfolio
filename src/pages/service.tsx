@@ -3,9 +3,9 @@
 
 const Service = () => {
     return (
-        <div className="service-container">
+        <section id="service" className="h-screen service-container">
             Service
-        </div>
+        </section>
     );
 }
 

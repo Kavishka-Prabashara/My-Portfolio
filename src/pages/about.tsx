@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section className="bg-gray-100 py-16">
+        <section id="about" className="h-screen bg-gray-100 py-16">
             <div className="container mx-auto flex flex-col md:flex-row items-center">
                 {/* Left Side: Text */}
                 <div className="md:w-1/2 mb-8 md:mb-0">

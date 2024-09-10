@@ -3,9 +3,9 @@
 
 const Home = () => {
     return (
-        <div className="home-container">
+        <section id="home" className="h-screen">
             Home
-        </div>
+        </section>
     );
 }
 

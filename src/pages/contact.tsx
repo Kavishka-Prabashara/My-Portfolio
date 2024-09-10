@@ -3,9 +3,9 @@
 
 const Contact = () => {
     return (
-        <div className="contact-container">
+        <section id="contactMe" className="h-screen">
             Contact
-        </div>
+        </section>
     );
 }
 
