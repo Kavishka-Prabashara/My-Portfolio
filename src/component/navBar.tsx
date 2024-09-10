@@ -14,7 +14,8 @@ const NavBar = () => {
 
     return (
         <div
-            className="w-full h-1 absolute flex justify-between items-center text-black py-6 px-8 md:px-32 bg-amber-200 drop-shadow-md rounded-2xl"
+            className="w-full h-1 mt-2 fixed top-0 left-0 z-50 flex justify-between items-center text-black py-6 px-8 md:px-32 bg-amber-200 drop-shadow-md rounded-2xl "
+            /*className="w-full mt-2 fixed top-0 left-0 z-50 flex justify-between items-center text-black py-6 px-8 md:px-32 bg-amber-200 drop-shadow-md rounded-2xl"*/
         >
             <a href="#">
                 <img
