@@ -74,7 +74,7 @@ function About() {
                         variants={fadeInOut}
                     >
                         <img
-                            src="/src/assets/proPic.jpeg"
+                            src="https://drive.google.com/file/d/1T8h5dezYV9nnXjs-J9T6mSLc-QbgyIyJ/view"
                             alt="Your Photo"
                             className="rounded-full w-64 h-64 object-cover shadow-lg transform transition-transform duration-500 hover:scale-110"
                         />

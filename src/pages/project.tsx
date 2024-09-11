@@ -7,25 +7,25 @@ const projects = [
         title: 'Project 1',
         description: 'A brief description of Project 1.',
         img: '/src/assets/projectSS/project1.png', // Screenshot path
-        githubLink: 'https://github.com/your-username/project1',
+        githubLink: 'https://drive.google.com/file/d/12D45lyqIHc-5GBdnxMaaFCb6NliM2Bzs/view',
     },
     {
         title: 'Project 2',
         description: 'A brief description of Project 2.',
         img: '/src/assets/projectSS/project2.png', // Screenshot path
-        githubLink: 'https://github.com/your-username/project2',
+        githubLink: 'https://drive.google.com/file/d/12D45lyqIHc-5GBdnxMaaFCb6NliM2Bzs/view',
     },
     {
         title: 'Project 3',
         description: 'A brief description of Project 3.',
         img: '/src/assets/projectSS/project3.png', // Screenshot path
-        githubLink: 'https://github.com/your-username/project3',
+        githubLink: 'https://drive.google.com/file/d/1LcR6ii7iTM2rUSJn5jxOgl40FdFFGEmz/view',
     },
     {
         title: 'Project 4',
         description: 'A brief description of Project 4.',
         img: '/src/assets/projectSS/project4.png', // Screenshot path
-        githubLink: 'https://github.com/your-username/project4',
+        githubLink: 'https://drive.google.com/file/d/1jN5aHVkuG63xMRyMu16pxrdBQKlambsH/view',
     },
     // Add more projects as needed
 ];
