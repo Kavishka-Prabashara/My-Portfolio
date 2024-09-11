@@ -12,7 +12,7 @@ const Home = () => {
         >
             {/* Name and Title */}
             <div className="text-center mb-8">
-                <h1 className="text-5xl font-bold mb-4">Kavishka Prabshara Wijerathna</h1>
+                <h1 className="text-5xl font-bold mb-4">Kavishka Prabashara Wijerathna</h1>
                 <h2 className="text-2xl font-semibold">I'm a Software Engineer</h2>
             </div>
 
