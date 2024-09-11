@@ -6,25 +6,25 @@ const projects = [
     {
         title: 'Project 1',
         description: 'A brief description of Project 1.',
-        img: 'path-to-project1-screenshot.jpg', // Screenshot path
+        img: '/src/assets/projectSS/project1.png', // Screenshot path
         githubLink: 'https://github.com/your-username/project1',
     },
     {
         title: 'Project 2',
         description: 'A brief description of Project 2.',
-        img: 'path-to-project2-screenshot.jpg', // Screenshot path
+        img: '/src/assets/projectSS/project2.png', // Screenshot path
         githubLink: 'https://github.com/your-username/project2',
     },
     {
         title: 'Project 3',
         description: 'A brief description of Project 3.',
-        img: 'path-to-project3-screenshot.jpg', // Screenshot path
+        img: '/src/assets/projectSS/project3.png', // Screenshot path
         githubLink: 'https://github.com/your-username/project3',
     },
     {
         title: 'Project 4',
         description: 'A brief description of Project 4.',
-        img: 'path-to-project4-screenshot.jpg', // Screenshot path
+        img: '/src/assets/projectSS/project4.png', // Screenshot path
         githubLink: 'https://github.com/your-username/project4',
     },
     // Add more projects as needed
