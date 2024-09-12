@@ -1,3 +1,4 @@
+import logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 import { useState } from 'react';
 
@@ -8,7 +9,7 @@ const NavBar = () => {
         <nav className="bg-gray-800 text-white w-full  fixed  left-0 z-50  rounded-b-lg ">
             <div className="container mx-auto flex justify-between items-center p-4">
                 {/* Logo */}
-                <img src="https://drive.google.com/file/d/1EVdhOy1yx2LlqrFrwjakVoFwSiJSyFmN/view" alt="Logo" className="h-10 w-10" />
+                <img src={logo} alt="Logo" className="h-10 w-10" />
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex space-x-6">
