@@ -9,19 +9,19 @@ import { FaGithub } from 'react-icons/fa';
 // Sample project data (replace these with actual project details)
 const projects = [
     {
-        title: 'Project 1',
-        description: 'A brief description of Project 1.',
+        title: 'Coffee Shop Management',
+        description: 'Java,MySQL,JavaFX',
         img: Project1,
-        githubLink: '',
+        githubLink: 'https://github.com/Kavishka-Prabashara/Coffee-Shop-Management-System-MVCJava',
     },
     {
-        title: 'Project 2',
-        description: 'A brief description of Project 2.',
+        title: 'Restaurant Management',
+        description: 'HTML,CSS,JavaScript',
         img: Project2,
-        githubLink: '',
+        githubLink: 'https://github.com/Kavishka-Prabashara/RestoRise-Restaurant-and-Bar-Management-System-Web-POS',
     },
     {
-        title: 'Project 3',
+        title: 'Pre School Management Management',
         description: 'A brief description of Project 3.',
         img: Project3,
         githubLink: '',
