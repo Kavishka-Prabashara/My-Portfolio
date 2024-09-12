@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import CV from '../assets/pdf/cv.pdf';
 
 const Home = () => {
     return (
@@ -29,14 +30,14 @@ const Home = () => {
             {/* Buttons: Download CV and Hire Me */}
             <div className="flex space-x-4">
                 <a
-                    href="/public/pdf/cv.pdf"
+                    href={CV}
                     download
                     className="bg-white text-blue-600 py-3 px-6 rounded-lg shadow-md font-semibold hover:bg-blue-50 transition duration-300"
                 >
                     Download CV
                 </a>
                 <a
-                    href="/src/pages/contact.tsx"
+                    href="//contact"
                     className="bg-blue-600 text-white py-3 px-6 rounded-lg shadow-md font-semibold hover:bg-blue-700 transition duration-300"
                 >
                     Hire Me
