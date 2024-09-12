@@ -36,7 +36,7 @@ const Home = () => {
                     Download CV
                 </a>
                 <a
-                    href="/contact"
+                    href="/src/pages/contact.tsx"
                     className="bg-blue-600 text-white py-3 px-6 rounded-lg shadow-md font-semibold hover:bg-blue-700 transition duration-300"
                 >
                     Hire Me
