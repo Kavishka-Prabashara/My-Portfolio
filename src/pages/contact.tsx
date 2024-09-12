@@ -11,7 +11,7 @@ const Contact = () => {
                     />
                 </div>
                 <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-                    <h2 className="text-3xl font-bold mb-4">Let’s Collaborate!</h2>
+                    <h2 className="text-3xl font-bold mb-4 text-blue-900">Let’s Collaborate!</h2>
                     <p className="text-base text-gray-700 mb-6">
                         I’d love to hear from you! Whether you have a project in mind, a question, or just want to
                         connect, feel free to send me a message below.

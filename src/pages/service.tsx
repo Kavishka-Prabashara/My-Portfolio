@@ -6,7 +6,7 @@ const Service = () => {
             <div className="container mx-auto">
                 {/* Introduction/Overview */}
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl font-bold mb-4">Services I Offer</h2>
+                    <h2 className="text-4xl font-bold mb-4 text-blue-900">Services I Offer</h2>
                     <p className="text-lg text-gray-700">
                         With expertise in a wide range of technologies, I provide top-notch software engineering services to meet your unique needs, whether it’s building web applications, mobile solutions, or cloud-based platforms.
                     </p>
