@@ -1,4 +1,5 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { Link } from 'react-scroll';
+import { FaGithub , FaLinkedin } from 'react-icons/fa';
 import CV from '../assets/pdf/cv.pdf';
 
 const Home = () => {
@@ -36,15 +37,21 @@ const Home = () => {
                 >
                     Download CV
                 </a>
-                <a
-                    href="//contact"
-                    className="bg-blue-600 text-white py-3 px-6 rounded-lg shadow-md font-semibold hover:bg-blue-700 transition duration-300"
+
+                {/* Updated Hire Me Button */}
+                <Link
+                    to="contact" // Scroll to the contact section
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="bg-blue-600 text-white py-3 px-6 rounded-lg shadow-md font-semibold cursor-pointer hover:bg-blue-700 transition duration-300"
                 >
                     Hire Me
-                </a>
+                </Link>
             </div>
         </section>
     );
-}
+};
 
 export default Home;
