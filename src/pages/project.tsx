@@ -1,3 +1,8 @@
+import Project1 from '../assets/projectSS/project1.png';
+import Project2 from '../assets/projectSS/project2.png';
+import Project3 from '../assets/projectSS/project3.png';
+import Project4 from '../assets/projectSS/project4.png';
+
 import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
 
@@ -6,25 +11,25 @@ const projects = [
     {
         title: 'Project 1',
         description: 'A brief description of Project 1.',
-        img: 'https://drive.google.com/uc?export=view&id=12D45lyqIHc-5GBdnxMaaFCb6NliM2Bzs',
+        img: Project1,
         githubLink: '',
     },
     {
         title: 'Project 2',
         description: 'A brief description of Project 2.',
-        img: 'https://drive.google.com/uc?export=view&id=12D45lyqIHc-5GBdnxMaaFCb6NliM2Bzs',
+        img: Project2,
         githubLink: '',
     },
     {
         title: 'Project 3',
         description: 'A brief description of Project 3.',
-        img: 'https://drive.google.com/uc?export=view&id=1LcR6ii7iTM2rUSJn5jxOgl40FdFFGEmz',
+        img: Project3,
         githubLink: '',
     },
     {
         title: 'Project 4',
         description: 'A brief description of Project 4.',
-        img: 'https://drive.google.com/uc?export=view&id=1jN5aHVkuG63xMRyMu16pxrdBQKlambsH',
+        img: Project4,
         githubLink: '',
     },
     // Add more projects as needed
