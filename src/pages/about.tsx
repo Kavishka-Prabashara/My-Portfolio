@@ -1,3 +1,4 @@
+import profilePic from '../assets/proPic.jpeg';
 import { useAnimation, motion } from 'framer-motion';
 import { useEffect } from 'react';
 import { FaFacebook, FaWhatsapp, FaYoutube, FaInstagram, FaTwitter } from 'react-icons/fa';
@@ -74,7 +75,7 @@ function About() {
                         variants={fadeInOut}
                     >
                         <img
-                            src="https://drive.google.com/file/d/1T8h5dezYV9nnXjs-J9T6mSLc-QbgyIyJ/view"
+                            src={profilePic}
                             alt="Your Photo"
                             className="rounded-full w-64 h-64 object-cover shadow-lg transform transition-transform duration-500 hover:scale-110"
                         />
