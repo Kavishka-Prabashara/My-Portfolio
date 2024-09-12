@@ -18,10 +18,10 @@ const Home = () => {
 
             {/* Social Icons */}
             <div className="flex justify-center space-x-6 mb-8">
-                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-4xl">
+                <a href="https://www.linkedin.com/in/kavishka-prabashara-wijerathna-899588189/" target="_blank" rel="noopener noreferrer" className="text-4xl">
                     <FaLinkedin className="hover:text-blue-500 transition duration-300" />
                 </a>
-                <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" className="text-4xl">
+                <a href="https://github.com/Kavishka-Prabashara" target="_blank" rel="noopener noreferrer" className="text-4xl">
                     <FaGithub className="hover:text-gray-500 transition duration-300" />
                 </a>
             </div>
@@ -29,7 +29,7 @@ const Home = () => {
             {/* Buttons: Download CV and Hire Me */}
             <div className="flex space-x-4">
                 <a
-                    href="/path-to-cv.pdf"
+                    href="/public/pdf/cv.pdf"
                     download
                     className="bg-white text-blue-600 py-3 px-6 rounded-lg shadow-md font-semibold hover:bg-blue-50 transition duration-300"
                 >

@@ -87,25 +87,25 @@ function About() {
                     className="flex justify-left mt-12 space-x-4 "
                     variants={fadeInOut}
                 >
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/kavishka.prabashara.7" target="_blank" rel="noopener noreferrer">
                         <FaFacebook
                             size={30}
                             className="text-black hover:text-blue-600 transform hover:scale-125 transition-all duration-300"
                         />
                     </a>
-                    <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/715997463" target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp
                             size={30}
                             className="text-black hover:text-green-500 transform hover:scale-125 transition-all duration-300"
                         />
                     </a>
-                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.youtube.com/@aruthde7944" target="_blank" rel="noopener noreferrer">
                         <FaYoutube
                             size={30}
                             className="text-black hover:text-red-600 transform hover:scale-125 transition-all duration-300"
                         />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/Kavishka_Prabashara/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram
                             size={30}
                             className="text-black hover:text-pink-500 transform hover:scale-125 transition-all duration-300"
