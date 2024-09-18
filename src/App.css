@@ -3,3 +3,26 @@
 @tailwind utilities;
 
 
+/* Style the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    margin: 5px; /* Add margin around the scrollbar */
+}
+
+/* Style the scrollbar track (background) */
+::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Background color */
+    border-radius: 10px; /* Optional: Rounded corners */
+    margin: 2px; /* Adds space between content and scrollbar */
+}
+
+/* Style the scrollbar thumb (the handle) */
+::-webkit-scrollbar-thumb {
+    background-color: #0000FF; /* Color of the scrollbar (cyan) */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Hover effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0000FF; /* Slightly darker cyan when hovered */
+}
