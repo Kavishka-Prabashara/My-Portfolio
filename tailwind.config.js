@@ -5,7 +5,11 @@ module.exports = {
     './src/**/*.{js,jsx,ts,tsx}',  // All JS, JSX, TS, and TSX files in src folder
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-gray': '#0f0f0f',
+      },
+    },
   },
   plugins: [],
   keyframes: {

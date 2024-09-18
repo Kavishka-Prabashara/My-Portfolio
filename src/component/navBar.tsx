@@ -6,7 +6,7 @@ const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-gray-800 text-white w-full  fixed  left-0 z-50  rounded-b-lg ">
+        <nav className="bg-custom-gray text-white w-full  fixed  left-0 z-50  rounded-b-lg ">
             <div className="container mx-auto flex justify-between items-center p-4">
                 {/* Logo */}
                 <img src={logo} alt="Logo" className="h-10 w-10" />
