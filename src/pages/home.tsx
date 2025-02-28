@@ -1,56 +1,59 @@
-import { Link } from 'react-scroll';
-import { FaGithub , FaLinkedin } from 'react-icons/fa';
-import CV from '../assets/pdf/cv.pdf';
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 const Home = () => {
+    const [scrollY, setScrollY] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => setScrollY(window.scrollY);
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <section
-            id="home"
-            className="h-screen flex flex-col justify-center items-center text-white"
-            style={{
-                background: "linear-gradient(to bottom right, #0000FF, #00FFFF)",
-                clipPath: "polygon(0 0, 100% 0, 100% 85%, 0% 100%)"
-            }}
+        <motion.section
+            className="flex flex-col items-center justify-center h-screen bg-white text-center"
+            animate={{ y: -scrollY * 0.5 }}
+            transition={{ type: "spring", stiffness: 50 }}
         >
-            {/* Name and Title */}
-            <div className="text-center mb-8">
-                <h1 className="text-5xl font-bold mb-4">Kavishka Prabashara Wijerathna</h1>
-                <h2 className="text-2xl font-semibold">I'm a Software Engineer</h2>
-            </div>
-
-            {/* Social Icons */}
-            <div className="flex justify-center space-x-6 mb-8">
-                <a href="https://www.linkedin.com/in/kavishka-prabashara-wijerathna-899588189/" target="_blank" rel="noopener noreferrer" className="text-4xl">
-                    <FaLinkedin className="hover:text-blue-500 transition duration-300" />
-                </a>
-                <a href="https://github.com/Kavishka-Prabashara" target="_blank" rel="noopener noreferrer" className="text-4xl">
-                    <FaGithub className="hover:text-gray-500 transition duration-300" />
-                </a>
-            </div>
-
-            {/* Buttons: Download CV and Hire Me */}
-            <div className="flex space-x-4">
-                <a
-                    href={CV}
-                    download
-                    className="bg-white text-blue-600 py-3 px-6 rounded-lg shadow-md font-semibold hover:bg-blue-50 transition duration-300"
-                >
-                    Download CV
-                </a>
-
-                {/* Updated Hire Me Button */}
-                <Link
-                    to="contact" // Scroll to the contact section
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                    className="bg-blue-600 text-white py-3 px-6 rounded-lg shadow-md font-semibold cursor-pointer hover:bg-blue-700 transition duration-300"
+            <motion.h1
+                className="text-6xl font-extrabold"
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+            >
+                Kavishka Prabashara Wijerathna
+            </motion.h1>
+            <motion.h2
+                className="text-2xl text-gray-600 mt-2"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: 0.3 }}
+            >
+                I'm a Software Developer
+            </motion.h2>
+            <motion.div
+                className="mt-6 flex gap-6"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.8, delay: 0.6 }}
+            >
+                <motion.button
+                    className="px-8 py-3 bg-black text-white text-lg rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
                 >
                     Hire Me
-                </Link>
-            </div>
-        </section>
+                </motion.button>
+                <motion.button
+                    className="px-8 py-3 bg-white text-black text-lg border border-black rounded-md"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                >
+                    Download CV
+                </motion.button>
+            </motion.div>
+        </motion.section>
     );
 };
 
