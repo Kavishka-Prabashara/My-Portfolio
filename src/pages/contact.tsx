@@ -1,7 +1,13 @@
+import { motion } from 'framer-motion';
 const Contact = () => {
     return (
-        <section id="contact" className="p-8 bg-gray-50">
-            <div className="container mx-auto h-full flex flex-col lg:flex-row items-center justify-between">
+        <section id="contact" className="p-8 bg-gray-50 mx-4 md:mx-8">
+            <motion.div
+                className="container mx-auto h-full flex flex-col lg:flex-row items-center justify-between"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+            >
                 {/* Left Side: Contact Form */}
                 <div className="w-full lg:w-1/2 flex justify-center">
                     <img
@@ -62,10 +68,7 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
-
-                {/* Right Side: SVG Graphic */}
-
-            </div>
+            </motion.div>
         </section>
     );
 }
