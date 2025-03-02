@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import contactBG from '../assets/contact-pic.jpg'
 const Contact = () => {
     return (
-        <section id="contact" className="p-8 bg-gray-50 mx-4 md:mx-8">
+        <section id="contact" className="p-8 bg-white mx-4 md:mx-8">
             <motion.div
                 className="container mx-auto h-full flex flex-col lg:flex-row items-center justify-between"
                 initial={{opacity: 0, y: 50}}
