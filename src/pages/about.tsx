@@ -1,14 +1,22 @@
 import profilePic from '../assets/proPic.jpeg';
 import { motion, useInView } from 'framer-motion';
-import { FaUser } from 'react-icons/fa';
 import { useRef } from 'react';
 
 function About() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: false, amount: 0.2 });
 
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "/component/mycv.pdf"; // Ensure this path is correct
+        link.download = "mycv.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
-        <section className="px-6 sm:px-10 py-8 bg-gray-800">
+        <section className="px-6 sm:px-10 py-8">
             {/* Page Title */}
             <h1 className="text-3xl sm:text-4xl font-bold text-center text-gray-800 mb-6">
                 About Me
@@ -19,9 +27,9 @@ function About() {
                 initial={{ opacity: 0, y: 50 }}
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0.5, y: 50 }}
                 transition={{ duration: 0.8, ease: "easeInOut" }}
-                className="flex flex-col md:flex-row items-center justify-between  rounded-xl mx-4 sm:mx-10 p-6 sm:p-10 "
+                className="flex flex-col md:flex-row items-center justify-between rounded-xl mx-4 sm:mx-10 p-6 sm:p-10"
             >
-                {/* Left Side - Profile Image (Dark Grey Background) */}
+                {/* Left Side - Profile Image */}
                 <motion.div
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={isInView ? { scale: 1, opacity: 1 } : { scale: 0.9, opacity: 0.5 }}
@@ -43,11 +51,15 @@ function About() {
                     className="w-full md:w-2/3 text-center md:text-left"
                 >
                     <div className="flex flex-col sm:flex-row items-center md:items-start gap-3">
-                        <FaUser className="text-white bg-blue-500 p-2 rounded-full text-4xl sm:text-5xl shadow-md" />
-                        <h2 className="text-2xl sm:text-3xl font-bold text-white">Who is Kavishka?</h2>
+                        <h2 className="text-2xl sm:text-3xl font-bold text-black">Who is Kavishka?</h2>
                     </div>
-                    <p className="text-stone-300 mt-3 text-base sm:text-lg">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+                    <p className="text-gray-600 mt-3 text-base sm:text-lg">
+                        A driven and enthusiastic individual with a strong passion for learning and
+                        tackling new challenges. I thrive in both team-oriented and independent
+                        work settings, consistently delivering high-quality results while meeting
+                        deadlines and achieving objectives. With a bold and exploratory mindset, I
+                        embrace challenges and take calculated risks, particularly in the dynamic
+                        and ever-evolving field of technology
                     </p>
 
                     {/* Statistics */}
@@ -76,7 +88,8 @@ function About() {
                         <motion.button
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
-                            className="bg-blue-500 text-white px-5 sm:px-6 py-3 rounded-lg shadow-lg font-semibold text-base sm:text-lg"
+                            className="bg-gray-800 text-white px-5 sm:px-6 py-3 rounded-lg shadow-lg font-semibold text-base sm:text-lg"
+                            onClick={handleDownload}
                         >
                             Download CV
                         </motion.button>

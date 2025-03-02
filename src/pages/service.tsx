@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Service = () => {
     return (
-        <section id="service" className="service-container p-8 bg-gray-50 mx-8">
+        <section id="service" className="service-container p-8 bg-white mx-8">
             <div className="container mx-auto">
                 {/* Introduction/Overview */}
                 <motion.div
@@ -12,18 +12,18 @@ const Service = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h2 className="text-4xl font-bold mb-4 text-blue-900">Services I Offer</h2>
+                    <h2 className="text-4xl font-bold mb-4  text-gray-800">Services I Offer</h2>
                 </motion.div>
 
                 {/* Core Services */}
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
                     {[
-                        { icon: <FaCode />, title: "Custom Software Development", text: "I create tailored software solutions designed to address your specific business needs.", color: "text-blue-500" },
-                        { icon: <FaLaptopCode />, title: "Web Application Development", text: "Develop dynamic and responsive web applications using modern frameworks such as React and Node.js.", color: "text-green-500" },
-                        { icon: <FaMobileAlt />, title: "Mobile App Development", text: "Build cross-platform and native mobile applications for iOS and Android using technologies like Flutter and React Native.", color: "text-purple-500" },
-                        { icon: <FaCogs />, title: "API Development & Integration", text: "Develop scalable APIs and integrate third-party services into your application ecosystem.", color: "text-red-500" },
-                        { icon: <FaCloud />, title: "Cloud Services & DevOps", text: "I offer cloud infrastructure setup, continuous integration, and continuous deployment services on AWS, Google Cloud, and Azure.", color: "text-yellow-500" },
-                        { icon: <FaDatabase />, title: "Database Design & Management", text: "Expertise in SQL and NoSQL databases, ensuring scalable and efficient data management solutions.", color: "text-teal-500" },
+                        { icon: <FaCode />, title: "Custom Software Development", text: "I create tailored software solutions designed to address your specific business needs.", color: "text-gray-800" },
+                        { icon: <FaLaptopCode />, title: "Web Application Development", text: "Develop dynamic and responsive web applications using modern frameworks such as React and Node.js.", color: "text-gray-800" },
+                        { icon: <FaMobileAlt />, title: "Mobile App Development", text: "Build cross-platform and native mobile applications for iOS and Android using technologies like Flutter and React Native.", color: "text-gray-800" },
+                        { icon: <FaCogs />, title: "API Development & Integration", text: "Develop scalable APIs and integrate third-party services into your application ecosystem.", color: "text-gray-800" },
+                        { icon: <FaCloud />, title: "Cloud Services & DevOps", text: "I offer cloud infrastructure setup, continuous integration, and continuous deployment services on AWS, Google Cloud, and Azure.", color: "text-gray-800" },
+                        { icon: <FaDatabase />, title: "Database Design & Management", text: "Expertise in SQL and NoSQL databases, ensuring scalable and efficient data management solutions.", color: "text-gray-800" },
                     ].map((service, index) => (
                         <motion.div
                             key={index}
@@ -56,7 +56,7 @@ const Service = () => {
                     </p>
                     <a
                         href="#contact"
-                        className="bg-blue-600 text-white py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
+                        className="bg-gray-800 text-white py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
                     >
                         Get in Touch
                     </a>

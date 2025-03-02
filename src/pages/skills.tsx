@@ -37,34 +37,27 @@ const Skills = () => {
                 {/* Introduction */}
                 <div className="text-center mb-12">
                     <motion.h2
-                        className="text-4xl font-bold mb-4 text-blue-900"
+                        className="text-4xl font-bold mb-4  text-gray-800"
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                     >
                         Skills & Expertise
                     </motion.h2>
-                    <motion.p
-                        className="text-lg text-gray-700"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 0.2, duration: 0.6 }}
-                    >
-                        I have extensive experience with a broad range of technologies, tools, and platforms. Here are some of the key skills I bring to the table.
-                    </motion.p>
+
                 </div>
 
                 {/* Skills List */}
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
                     {[
-                        { Icon: FaJs, title: "JavaScript", desc: "ES6+, React, Node.js", color: "text-yellow-500" },
-                        { Icon: FaPython, title: "Python", desc: "Django, Flask, Data Analysis", color: "text-green-500" },
-                        { Icon: FaCloud, title: "Cloud & DevOps", desc: "AWS, Docker, Kubernetes", color: "text-blue-500" },
-                        { Icon: FaMobileAlt, title: "Mobile Development", desc: "Flutter, React Native", color: "text-purple-500" },
-                        { Icon: FaDatabase, title: "Databases", desc: "SQL, NoSQL, MongoDB", color: "text-red-500" },
-                        { Icon: FaGitAlt, title: "Version Control", desc: "Git, GitHub, GitLab", color: "text-orange-500" },
-                        { Icon: FaReact, title: "Front-End Frameworks", desc: "React, Angular", color: "text-cyan-500" },
-                        { Icon: FaBug, title: "Testing & Debugging", desc: "Jest, Cypress, Selenium", color: "text-red-500" },
+                        { Icon: FaJs, title: "JavaScript", desc: "ES6+, React, Node.js", color: "text-gray-800" },
+                        { Icon: FaPython, title: "Python", desc: "Django, Flask, Data Analysis", color: "text-gray-800" },
+                        { Icon: FaCloud, title: "Cloud & DevOps", desc: "AWS, Docker, Kubernetes", color: "text-gray-800" },
+                        { Icon: FaMobileAlt, title: "Mobile Development", desc: "Flutter, React Native", color: "text-gray-800" },
+                        { Icon: FaDatabase, title: "Databases", desc: "SQL, NoSQL, MongoDB", color: "text-gray-800" },
+                        { Icon: FaGitAlt, title: "Version Control", desc: "Git, GitHub, GitLab", color: "text-gray-800" },
+                        { Icon: FaReact, title: "Front-End Frameworks", desc: "React, Angular", color: "text-gray-800" },
+                        { Icon: FaBug, title: "Testing & Debugging", desc: "Jest, Cypress, Selenium", color: "text-gray-800" },
                     ].map((skill, index) => (
                         <motion.div
                             key={index}
