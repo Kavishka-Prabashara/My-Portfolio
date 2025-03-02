@@ -1,21 +1,27 @@
 import { motion } from 'framer-motion';
+import contactBG from '../assets/contact-pic.jpg'
 const Contact = () => {
     return (
         <section id="contact" className="p-8 bg-gray-50 mx-4 md:mx-8">
             <motion.div
                 className="container mx-auto h-full flex flex-col lg:flex-row items-center justify-between"
-                initial={{ opacity: 0, y: 50 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
+                initial={{opacity: 0, y: 50}}
+                animate={{opacity: 1, y: 0}}
+                transition={{duration: 0.6}}
             >
                 {/* Left Side: Contact Form */}
                 <div className="w-full lg:w-1/2 flex justify-center">
                     <img
-                        src="https://unblast.com/wp-content/uploads/2022/08/Programmer-Illustration.jpg"
+                        src={contactBG}
                         alt="Contact Illustration"
-                        className="w-3/4 h-auto"
+                        className="w-3/4 h-auto border-4 border-transparent rounded-lg transition-transform hover:scale-105 hover:shadow-lg"
+                        style={{
+                            backdropFilter: 'blur(10px)', /* Adjust blur amount as needed */
+                            WebkitBackdropFilter: 'blur(10px)', /* For Safari */
+                        }}
                     />
                 </div>
+
                 <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
                     <h2 className="text-3xl font-bold mb-4 text-blue-900">Let’s Collaborate!</h2>
                     <p className="text-base text-gray-700 mb-6">
