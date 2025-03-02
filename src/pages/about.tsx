@@ -23,6 +23,7 @@ function About() {
             </h1>
 
             <motion.section
+                id="about"
                 ref={ref}
                 initial={{ opacity: 0, y: 50 }}
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0.5, y: 50 }}

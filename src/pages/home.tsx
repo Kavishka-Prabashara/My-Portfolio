@@ -12,6 +12,7 @@ const Home = () => {
 
     return (
         <motion.section
+            id="home"
             className="flex flex-col items-center justify-center h-screen bg-white text-center"
             animate={{ y: -scrollY * 0.5 }}
             transition={{ type: "spring", stiffness: 50 }}
